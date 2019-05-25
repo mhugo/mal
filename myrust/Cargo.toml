@@ -1,0 +1,15 @@
+[package]
+name = "myrust"
+version = "0.1.0"
+authors = ["Hugo Mercier <hugo.mercier@oslandia.com>"]
+edition = "2018"
+
+[dependencies]
+regex = "1.1.6"
+
+[[bin]]
+name = "step0_repl"
+path = "step0_repl.rs"
+[[bin]]
+name = "step1_read_print"
+path = "step1_read_print.rs"
